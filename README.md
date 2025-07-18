@@ -1,7 +1,7 @@
 # FindClosedForm
 Search for a formula which yields a given number
 
-Basic examples
+Basic examples...
 
 ```wl
 ResourceFunction[\"FindClosedForm\"][0.405465`]
