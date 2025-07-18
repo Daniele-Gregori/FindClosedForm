@@ -6,6 +6,6 @@ Basic examples
 ```wl
 ResourceFunction["FindClosedForm"][0.405465`]
 ```
-"```wl
+```wl
 Log[(3/2)]
-```"
+```
