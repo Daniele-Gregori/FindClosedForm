@@ -140,128 +140,16 @@ Specify the functional form of a formula in the second argument as a pure functi
 FindClosedForm[1.85653, 1/Zeta[#]^2 &]
 ```
 
-![1cx9q7kdwwbdj](img/1cx9q7kdwwbdj.png)
+<img width="68" height="39" alt="1cx9q7kdwwbdj" src="https://github.com/user-attachments/assets/c30cc16f-ed5c-431a-9ddd-cd75ce7683e5" />
+
 
 ```wl
 FindClosedForm[-0.309033, PolyLog[#1, #2] &]
 ```
+<img width="112" height="30" alt="0yeu9hebf3u1x" src="https://github.com/user-attachments/assets/417c2eda-16c1-41aa-8ce2-6ee8c2661a44" />
 
-![0yeu9hebf3u1x](img/0yeu9hebf3u1x.png)
+#### More examples
 
-#### Scope
+See many other examples and the rest of the documentation at [this page](https://resources.wolframcloud.com/FunctionRepository/resources/FindClosedForm/) on the Wolfram Function Repository.
 
-Get four results:
 
-```wl
-In[]:= FindClosedForm[3.3116, 4]
-```
-
-![08lg02cbye4m4](img/08lg02cbye4m4.png)
-
-The results are all approximately equivalent:
-
-```wl
-In[]:= N[%]
-```
-
-```wl
-Out[]= {3.31163, 3.31153, 3.31156, 3.31181}
-```
-
-![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)
-
-Differing results of `FindClosedForm` can turn out to be strictly equivalent:
-
-```wl
-In[]:= FindClosedForm[0.69314718, 4]
-```
-
-![1ukuomhn8sm2t](img/1ukuomhn8sm2t.png)
-
-```wl
-In[]:= FullSimplify@Apply[Equal, %]
-```
-
-```wl
-Out[]= True
-```
-
-![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)
-
-Get ten results based on ![1rzhsdmlwg3qw](img/1rzhsdmlwg3qw.png):
-
-```wl
-In[]:= FindClosedForm[0.405465, Log, 10]
-```
-
-![177t3mylzjkxg](img/177t3mylzjkxg.png)
-
-```wl
-In[]:= N[%]
-```
-
-```wl
-Out[]= {0.405465, 0.405465, 0.405465, 0.405463, 0.405463, 0.405467, 0.405468, 0.405462, 0.405462, 0.405469}
-```
-
-![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)
-
-The numerical match with the functional form is searched up to addition or multiplication by an algebraic number (that is, a ![0qax6ivssbht8](img/0qax6ivssbht8.png) or ![00m8zdng6fqlh](img/00m8zdng6fqlh.png)):
-
-```wl
-In[]:= FindClosedForm[-1.185732, PolyGamma[#] &]
-```
-
-![0qnq3jcs9ebj8](img/0qnq3jcs9ebj8.png)
-
-```wl
-In[]:= FindClosedForm[0.780653, ArcSinh]
-```
-
-![1aumndg21nymy](img/1aumndg21nymy.png)
-
-The arguments can also be roots:
-
-```wl
-In[]:= FindClosedForm[1.054136, BarnesG[Sqrt[2] #] &]
-```
-
-![0dmka5w0l4gpl](img/0dmka5w0l4gpl.png)
-
-![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)
-
-Specify the form of any function combination, with a number of arguments:
-
-```wl
-In[]:= FindClosedForm[7.443967, Log[1 + Exp[#]] &]
-```
-
-```wl
-Out[]= 10 Log[1 + E^(1/10)]
-```
-
-![0ilt0l5ipe51t](img/0ilt0l5ipe51t.png)
-
-![0ql51gs2scv4c](img/0ql51gs2scv4c.png)
-
-```wl
-In[]:= FindClosedForm[0.7299085, HypergeometricU[#1, #2, #3] &]
-```
-
-![1q74rwzgbt23v](img/1q74rwzgbt23v.png)
-
-![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)
-
-Search through a list of functional forms:
-
-```wl
-In[]:= FindClosedForm[5.550045, {Sinh, Cosh, Sech, Csch}]
-```
-
-![1t2ni8mfhm3zb](img/1t2ni8mfhm3zb.png)
-
-```wl
-In[]:= FindClosedForm[-1.479735, {EllipticK[#] &, EllipticE[#] &, EllipticPi[#1, #2] &}]
-```
-
-![1jmd6cieyll20](img/1jmd6cieyll20.png)
