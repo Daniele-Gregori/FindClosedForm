@@ -5,11 +5,11 @@ Search for a formula that yields a given number
 
 #### Usage![0m0v5w4n3rqku](img/0m0v5w4n3rqku.png)
 
-![0vkuymevwfuwa](img/0vkuymevwfuwa.png)
+<img width="119" height="19" alt="0vkuymevwfuwa" src="https://github.com/user-attachments/assets/0811fd0a-a97b-48f7-a0e3-6de7c7d1897e" />
 
 searches for equivalents to the given number y from common mathematical functions.
 
-![19ratzkfm7xw9](img/19ratzkfm7xw9.png)
+<img width="134" height="19" alt="19ratzkfm7xw9" src="https://github.com/user-attachments/assets/13857bab-5509-42b5-983d-cffba7393830" />
 
 returns up to n results for the number y.
 
