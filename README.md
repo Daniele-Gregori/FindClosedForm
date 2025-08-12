@@ -103,7 +103,7 @@ FindClosedForm[0.405465]
 <img width="52" height="30" alt="0izukabojarea" src="https://github.com/user-attachments/assets/6afa8f2a-81fe-4335-aaf5-9c002997024d" />
 
 
-<img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/e0d7785a-5c78-40df-ba9b-ad2f2f1ac792" />
+<!-- <img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/e0d7785a-5c78-40df-ba9b-ad2f2f1ac792" />-->
 
 
 Find possible closed form for a number in terms of common mathematical functions:
@@ -115,34 +115,35 @@ FindClosedForm[3.792277]
 <img width="94" height="30" alt="0oqors7zubg8b" src="https://github.com/user-attachments/assets/bf58e8b9-714c-4621-af3e-5470fa4d9591" />
 
 
-![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)
+<!--![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)-->
 
 Find formulae in terms of mathematical constants:
 
 ```wl
-In[]:= FindClosedForm[3.311601]
+FindClosedForm[3.311601]
 ```
 
-![1snzcxq0uti3y](img/1snzcxq0uti3y.png)
+<img width="46" height="32" alt="1snzcxq0uti3y" src="https://github.com/user-attachments/assets/d4436b56-c6b8-447f-8441-d9435e4230e0" />
+
 
 ```wl
-In[]:= FindClosedForm[1.044866]
+FindClosedForm[1.044866]
 ```
 
-![0v4ar2xgljmxi](img/0v4ar2xgljmxi.png)
+<img width="74" height="34" alt="0v4ar2xgljmxi" src="https://github.com/user-attachments/assets/388f8cc4-a9f0-4dee-afba-cddf2b7f0c22" />
 
-![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)
+<!--![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)-->
 
 Specify the functional form of a formula in the second argument as a pure function:
 
 ```wl
-In[]:= FindClosedForm[1.85653, 1/Zeta[#]^2 &]
+FindClosedForm[1.85653, 1/Zeta[#]^2 &]
 ```
 
 ![1cx9q7kdwwbdj](img/1cx9q7kdwwbdj.png)
 
 ```wl
-In[]:= FindClosedForm[-0.309033, PolyLog[#1, #2] &]
+FindClosedForm[-0.309033, PolyLog[#1, #2] &]
 ```
 
 ![0yeu9hebf3u1x](img/0yeu9hebf3u1x.png)
