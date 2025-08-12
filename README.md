@@ -97,7 +97,7 @@ The value for the option `"MaxSearchRounds"` sets the number of search rounds to
 Find a possible mathematical function for a number:
 
 ```wl
-In[]:= FindClosedForm[0.405465]
+FindClosedForm[0.405465]
 ```
 
 <img width="52" height="30" alt="0izukabojarea" src="https://github.com/user-attachments/assets/6afa8f2a-81fe-4335-aaf5-9c002997024d" />
@@ -109,10 +109,11 @@ In[]:= FindClosedForm[0.405465]
 Find possible closed form for a number in terms of common mathematical functions:
 
 ```wl
-In[]:= FindClosedForm[3.792277]
+FindClosedForm[3.792277]
 ```
 
-![0oqors7zubg8b](img/0oqors7zubg8b.png)
+<img width="94" height="30" alt="0oqors7zubg8b" src="https://github.com/user-attachments/assets/bf58e8b9-714c-4621-af3e-5470fa4d9591" />
+
 
 ![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)
 
