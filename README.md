@@ -49,7 +49,7 @@ Notice that the search may take a very long time. If multiple results are reques
 
 FindClosedForm accepts the following options:
 
-![1hfnix3mqduzn](img/1hfnix3mqduzn.png)
+<img width="751" height="363" alt="1hfnix3mqduzn" src="https://github.com/user-attachments/assets/60a1e652-7774-4da3-9a90-48533e8461b0" />
 
 The value for the option "SignificantDigits" is set automatically to the number of digits (before 0) specified in the given number $y$ and is used to determine the order of magnitude of the relative error allowed for the numerical match. It is possible to specify a lower or higher value, so to ignore some numerical error, or require a stricter match.
 
@@ -69,17 +69,19 @@ If the option "RootApproximantMethod" is set to "BuiltIn", these algebraic numbe
 
 Summarizing, the possible values for the option "RootApproximantMethod" are the following:
 
-![199ju3w1zggt5](img/199ju3w1zggt5.png)
+<img width="654" height="105" alt="199ju3w1zggt5" src="https://github.com/user-attachments/assets/bd351420-c41e-4ad2-adb5-a2afbe52f2fc" />
 
 If the option `"RationalSolutions"` is set to [True](https://reference.wolfram.com/language/ref/True), simple rational solutions are allowed. These are typically trivial, so unless the function searched for is the [Identity](https://reference.wolfram.com/language/ref/Identity), or both `"AlgebraicAdd"` or `"AlgebraicFactor"` are set to [False](https://reference.wolfram.com/language/ref/False), the default value for this option is [False](https://reference.wolfram.com/language/ref/False) and thus no simple rational can be returned.
 
 If the option `"SearchArguments"` is set to [Automatic](https://reference.wolfram.com/language/ref/Automatic), the algorithm automatically tries arguments within an increasingly larger range each, with a cutoff equal to the search round (or function of it). Notice that argument ranges at successive rounds do overlap, but the program does not recompute the previously tried arguments combinations. In particular, special values for the option `"SearchRange"`, as functions of the search round, are the following:
 
-![01hr0w2n7178r](img/01hr0w2n7178r.png)
+<img width="500" height="105" alt="01hr0w2n7178r" src="https://github.com/user-attachments/assets/fccfbaa6-3c16-4899-aecc-ee0286a72354" />
+
 
 Arguments to be tried can be specified through the option `"SearchArguments"` as a [List](https://reference.wolfram.com/language/ref/List) - if there is only one [Slot](https://reference.wolfram.com/language/ref/Slot) - or as a list of lists - one for each slot - or as an [Association](https://reference.wolfram.com/language/ref/Association) between slots and lists, as keys and values respectively, as follows:
 
-![1s9ukkfon0yrd](img/1s9ukkfon0yrd.png)
+<img width="570" height="105" alt="1s9ukkfon0yrd" src="https://github.com/user-attachments/assets/337fded5-c48b-47c3-96e0-9bfb1050eba2" />
+
 
 The default output of $\text{FindClosedForm}$ is a [list](https://reference.wolfram.com/language/ref/List) of all the closed forms found, with no duplicates. However, sometimes the functional form may evaluate in such a way to lose information on the arguments used. Through the option `"OutputArguments"` set to [True](https://reference.wolfram.com/language/ref/True), also the arguments can be returned in the output, as keys of an [association](https://reference.wolfram.com/language/ref/Association) with the corresponding closed forms.
 
@@ -87,7 +89,8 @@ If the option `"SearchComplex"` is set to [True](https://reference.wolfram.com/l
 
 The value for the option `"MaxSearchRounds"` sets the number of search rounds to be tried before terminating the program. Similarly the maximum time spent by the search algorithm can be set through the option `"SearchTimeLimit"`. If the search terminates with no closed form is found, the output of `FindClosedForm` is [None](https://reference.wolfram.com/language/ref/None).
 
-### Examples![0mn3bsv96v914](img/0mn3bsv96v914.png)
+### Examples<img width="8" height="17" alt="0mn3bsv96v914" src="https://github.com/user-attachments/assets/75fc5170-f226-4284-9a90-40db3db458d5" />
+
 
 #### Basic Examples
 
@@ -97,9 +100,11 @@ Find a possible mathematical function for a number:
 In[]:= FindClosedForm[0.405465]
 ```
 
-![0izukabojarea](img/0izukabojarea.png)
+<img width="52" height="30" alt="0izukabojarea" src="https://github.com/user-attachments/assets/6afa8f2a-81fe-4335-aaf5-9c002997024d" />
 
-![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)
+
+<img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/e0d7785a-5c78-40df-ba9b-ad2f2f1ac792" />
+
 
 Find possible closed form for a number in terms of common mathematical functions:
 
