@@ -3,7 +3,8 @@ Search for a formula that yields a given number
 
 ### Documentation
 
-#### Usage![0m0v5w4n3rqku](img/0m0v5w4n3rqku.png)
+#### Usage<img width="8" height="17" alt="0m0v5w4n3rqku" src="https://github.com/user-attachments/assets/3bcec326-54fc-4479-8d48-f08bb8f52861" />
+
 
 <img width="119" height="19" alt="0vkuymevwfuwa" src="https://github.com/user-attachments/assets/0811fd0a-a97b-48f7-a0e3-6de7c7d1897e" />
 
