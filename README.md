@@ -14,23 +14,23 @@ searches for equivalents to the given number y from common mathematical function
 
 returns up to n results for the number y.
 
-![0meyq3i4awcxw](img/0meyq3i4awcxw.png)
+<img width="135" height="19" alt="0meyq3i4awcxw" src="https://github.com/user-attachments/assets/60073a29-5dd5-47cc-8a66-68b5420c8ce8" />
 
 searches for a formula with the given functional form $f$.
 
-![06rtubm985xkh](img/06rtubm985xkh.png)
+<img width="150" height="19" alt="06rtubm985xkh" src="https://github.com/user-attachments/assets/22afab56-8114-4e23-84ea-7c9b92b90346" />
 
 returns up to n results.
 
-![158jxuy0qxe26](img/158jxuy0qxe26.png)
+<img width="189" height="19" alt="158jxuy0qxe26" src="https://github.com/user-attachments/assets/29be625c-4f41-47f1-8b59-e090f3c31f9d" />
 
 searches for a formula for the given number $y$, among the given list of functional forms $f_i$.
 
-![1n0nle9jezur8](img/1n0nle9jezur8.png)
+<img width="203" height="19" alt="1n0nle9jezur8" src="https://github.com/user-attachments/assets/072580a8-8e48-40e5-b128-d17daf617ecf" />
 
 returns up to n results.
 
-#### Details & Options![0h3ffn7gunls6](img/0h3ffn7gunls6.png)
+#### Details & Options<img width="8" height="17" alt="0h3ffn7gunls6" src="https://github.com/user-attachments/assets/8c0de53a-abc2-40dd-a830-d6e21b587c70" />
 
 $\text{FindClosedForm}$ helps to solve the fundamental problem of [Number Recognition](https://reference.wolfram.com/language/guide/NumberRecognition), by searching and finding a possible closed formula for a given number $y$, in terms of arbitrary combinations of elementary and higher mathematical functions.
 
