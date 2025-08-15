@@ -148,7 +148,7 @@ FindClosedForm[-0.309033, PolyLog[#1, #2] &]
 ```
 <img width="112" height="30" alt="0yeu9hebf3u1x" src="https://github.com/user-attachments/assets/417c2eda-16c1-41aa-8ce2-6ee8c2661a44" />
 
-#### More examples
+### Full documentation
 
 See many other examples and the rest of the documentation at [this page](https://resources.wolframcloud.com/FunctionRepository/resources/FindClosedForm/) on the Wolfram Function Repository.
 
