@@ -89,7 +89,7 @@ If the option `"SearchComplex"` is set to [True](https://reference.wolfram.com/l
 
 The value for the option `"MaxSearchRounds"` sets the number of search rounds to be tried before terminating the program. Similarly the maximum time spent by the search algorithm can be set through the option `"SearchTimeLimit"`. If the search terminates with no closed form is found, the output of `FindClosedForm` is [None](https://reference.wolfram.com/language/ref/None).
 
-### Examples<img width="8" height="17" alt="0mn3bsv96v914" src="https://github.com/user-attachments/assets/75fc5170-f226-4284-9a90-40db3db458d5" />
+### Examples<!--<img width="8" height="17" alt="0mn3bsv96v914" src="https://github.com/user-attachments/assets/75fc5170-f226-4284-9a90-40db3db458d5" />-->
 
 
 #### Basic Examples
