@@ -3,7 +3,7 @@ Search for a formula that yields a given number
 
 ### Documentation
 
-#### Usage<img width="8" height="17" alt="0m0v5w4n3rqku" src="https://github.com/user-attachments/assets/3bcec326-54fc-4479-8d48-f08bb8f52861" />
+#### Usage<!--<img width="8" height="17" alt="0m0v5w4n3rqku" src="https://github.com/user-attachments/assets/3bcec326-54fc-4479-8d48-f08bb8f52861" />-->
 
 
 <img width="119" height="19" alt="0vkuymevwfuwa" src="https://github.com/user-attachments/assets/0811fd0a-a97b-48f7-a0e3-6de7c7d1897e" />
@@ -30,7 +30,7 @@ searches for a formula for the given number $y$, among the given list of functio
 
 returns up to n results.
 
-#### Details & Options<img width="8" height="17" alt="0h3ffn7gunls6" src="https://github.com/user-attachments/assets/8c0de53a-abc2-40dd-a830-d6e21b587c70" />
+#### Details & Options<!--<img width="8" height="17" alt="0h3ffn7gunls6" src="https://github.com/user-attachments/assets/8c0de53a-abc2-40dd-a830-d6e21b587c70" />-->
 
 $\text{FindClosedForm}$ helps to solve the fundamental problem of [Number Recognition](https://reference.wolfram.com/language/guide/NumberRecognition), by searching and finding a possible closed formula for a given number $y$, in terms of arbitrary combinations of elementary and higher mathematical functions.
 
