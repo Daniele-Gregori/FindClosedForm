@@ -1,5 +1,5 @@
 # FindClosedForm
-Search for a formula that yields a given number
+Search for a formula that yields a given number.
 
 ### Documentation
 
