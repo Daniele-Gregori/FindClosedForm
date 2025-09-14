@@ -168,7 +168,7 @@ N[%]
 
 {3.31163, 3.31153, 3.31156, 3.31181}
 
-<img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/4659476d-7daa-40b7-bc85-92e3cff1afcb" />
+<!--<img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/4659476d-7daa-40b7-bc85-92e3cff1afcb" />-->
 
 
 Differing results of `FindClosedForm` can turn out to be strictly equivalent:
@@ -186,7 +186,7 @@ FullSimplify@Apply[Equal, %]
 
 True
 
-<img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/ff5dbe6e-2a8e-4b70-bb24-e525e2203f4c" />
+<!--<img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/ff5dbe6e-2a8e-4b70-bb24-e525e2203f4c" />-->
 
 
 Get ten results based on Log:
@@ -205,7 +205,7 @@ N[%]
 {0.405465, 0.405465, 0.405465, 0.405463, 0.405463, 0.405467, 0.405468, 0.405462, 0.405462, 0.405469}
 
 
-<img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/eb4d8cb8-71d4-412a-9a27-df820fc87999" />
+<!--<img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/eb4d8cb8-71d4-412a-9a27-df820fc87999" />-->
 
 
 The numerical match with the functional form is searched up to addition or multiplication by an algebraic number (that is, a Root or Rational):
