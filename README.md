@@ -273,6 +273,6 @@ FindClosedForm[-1.479735, {EllipticK[#] &, EllipticE[#] &, EllipticPi[#1, #2] &}
 
 ### Full documentation
 
-See many other examples and the rest of the documentation for all the options, properties, applications and possible issues at [this page](https://resources.wolframcloud.com/FunctionRepository/resources/FindClosedForm/) on the Wolfram Function Repository.
+See many other examples and the rest of the documentation for all the options, applications, properties and relations at [this page](https://resources.wolframcloud.com/FunctionRepository/resources/FindClosedForm/) on the Wolfram Function Repository.
 
 
