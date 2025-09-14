@@ -208,7 +208,7 @@ In[]:= N[%]
 <img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/eb4d8cb8-71d4-412a-9a27-df820fc87999" />
 
 
-The numerical match with the functional form is searched up to addition or multiplication by an algebraic number (that is, a ![0qax6ivssbht8](img/0qax6ivssbht8.png) or ![00m8zdng6fqlh](img/00m8zdng6fqlh.png)):
+The numerical match with the functional form is searched up to addition or multiplication by an algebraic number (that is, a Root or Rational):
 
 ```wl
 FindClosedForm[-1.185732, PolyGamma[#] &]
@@ -227,7 +227,10 @@ The arguments can also be roots:
 ```wl
 FindClosedForm[1.054136, BarnesG[Sqrt[2] #] &]
 ```
+
+
 <img width="109" height="34" alt="0dmka5w0l4gpl" src="https://github.com/user-attachments/assets/4f2885e9-ab8e-4883-a71d-e87a6533169c" />
+
 
 
 <img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/eb4d8cb8-71d4-412a-9a27-df820fc87999" />
@@ -239,9 +242,9 @@ Specify the form of any function combination, with a number of arguments:
 FindClosedForm[7.443967, Log[1 + Exp[#]] &]
 ```
 
-```wl
+
 10 Log[1 + E^(1/10)]
-```
+
 
 ```wl
 FindClosedForm[4.688231, Gamma[#1]/Gamma[#2]&]
