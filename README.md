@@ -232,7 +232,7 @@ FindClosedForm[1.054136, BarnesG[Sqrt[2] #] &]
 <img width="109" height="34" alt="0dmka5w0l4gpl" src="https://github.com/user-attachments/assets/4f2885e9-ab8e-4883-a71d-e87a6533169c" />
 
 
-![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)
+
 
 Specify the form of any function combination, with a number of arguments:
 
@@ -257,7 +257,6 @@ FindClosedForm[0.7299085, HypergeometricU[#1, #2, #3] &]
 <img width="191" height="30" alt="1q74rwzgbt23v" src="https://github.com/user-attachments/assets/670cc2a6-dfb6-45c2-8a3f-8417744039be" />
 
 
-![1x8tyyvm9ckgn](img/1x8tyyvm9ckgn.png)
 
 
 Search through a list of functional forms:
@@ -274,6 +273,6 @@ FindClosedForm[-1.479735, {EllipticK[#] &, EllipticE[#] &, EllipticPi[#1, #2] &}
 
 ### Full documentation
 
-See many other examples and the rest of the documentation at [this page](https://resources.wolframcloud.com/FunctionRepository/resources/FindClosedForm/) on the Wolfram Function Repository.
+See many other examples and the rest of the documentation for all options, properties, applications and possible issues at [this page](https://resources.wolframcloud.com/FunctionRepository/resources/FindClosedForm/) on the Wolfram Function Repository.
 
 
