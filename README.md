@@ -148,6 +148,122 @@ FindClosedForm[-0.309033, PolyLog[#1, #2] &]
 ```
 <img width="112" height="30" alt="0yeu9hebf3u1x" src="https://github.com/user-attachments/assets/417c2eda-16c1-41aa-8ce2-6ee8c2661a44" />
 
+
+#### Scope
+
+Get four results:
+
+```wl
+In[]:= FindClosedForm[3.3116, 4]
+```
+
+<img width="328" height="34" alt="08lg02cbye4m4" src="https://github.com/user-attachments/assets/da73b5e6-1af4-436e-a97a-57911ba917ec" />
+
+
+The results are all approximately equivalent:
+
+```wl
+In[]:= N[%]
+```
+
+```wl
+Out[]= {3.31163, 3.31153, 3.31156, 3.31181}
+```
+<img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/4659476d-7daa-40b7-bc85-92e3cff1afcb" />
+
+
+Differing results of `FindClosedForm` can turn out to be strictly equivalent:
+
+```wl
+In[]:= FindClosedForm[0.69314718, 4]
+```
+
+<img width="366" height="30" alt="1ukuomhn8sm2t" src="https://github.com/user-attachments/assets/74839196-ea26-4566-9ba7-e499e487e23f" />
+
+
+```wl
+In[]:= FullSimplify@Apply[Equal, %]
+```
+
+```wl
+Out[]= True
+```
+
+<img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/ff5dbe6e-2a8e-4b70-bb24-e525e2203f4c" />
+
+
+Get ten results based on ![1rzhsdmlwg3qw](img/1rzhsdmlwg3qw.png):
+
+```wl
+In[]:= FindClosedForm[0.405465, Log, 10]
+```
+
+<img width="477" height="80" alt="177t3mylzjkxg" src="https://github.com/user-attachments/assets/4f44ebfe-8336-419a-9ee9-f8f58a5dbf5d" />
+
+
+```wl
+In[]:= N[%]
+```
+
+```wl
+Out[]= {0.405465, 0.405465, 0.405465, 0.405463, 0.405463, 0.405467, 0.405468, 0.405462, 0.405462, 0.405469}
+```
+
+<img width="782" height="16" alt="1x8tyyvm9ckgn" src="https://github.com/user-attachments/assets/eb4d8cb8-71d4-412a-9a27-df820fc87999" />
+
+
+The numerical match with the functional form is searched up to addition or multiplication by an algebraic number (that is, a ![0qax6ivssbht8](img/0qax6ivssbht8.png) or ![00m8zdng6fqlh](img/00m8zdng6fqlh.png)):
+
+```wl
+In[]:= FindClosedForm[-1.185732, PolyGamma[#] &]
+```
+<img width="146" height="30" alt="0qnq3jcs9ebj8" src="https://github.com/user-attachments/assets/9c04554f-7b92-45ac-880d-4a971e5944c5" />
+
+
+```wl
+In[]:= FindClosedForm[0.780653, ArcSinh]
+```
+<img width="120" height="30" alt="1aumndg21nymy" src="https://github.com/user-attachments/assets/50d5e4da-a97f-4288-ab29-7c296836d0a7" />
+
+
+The arguments can also be roots:
+
+```wl
+In[]:= FindClosedForm[1.054136, BarnesG[Sqrt[2] #] &]
+```
+<img width="109" height="34" alt="0dmka5w0l4gpl" src="https://github.com/user-attachments/assets/4f2885e9-ab8e-4883-a71d-e87a6533169c" />
+
+
+Specify the form of any function combination, with a number of arguments:
+
+```wl
+In[]:= FindClosedForm[7.443967, Log[1 + Exp[#]] &]
+```
+
+```wl
+Out[]= 10 Log[1 + E^(1/10)]
+```
+<img width="288" height="33" alt="0ilt0l5ipe51t" src="https://github.com/user-attachments/assets/89cd7593-13d6-4e67-9a56-3959652edc56" />
+<img width="107" height="47" alt="0ql51gs2scv4c" src="https://github.com/user-attachments/assets/6902c8da-5c90-4c5f-b136-033fa0db5a67" />
+
+
+```wl
+In[]:= FindClosedForm[0.7299085, HypergeometricU[#1, #2, #3] &]
+```
+<img width="191" height="30" alt="1q74rwzgbt23v" src="https://github.com/user-attachments/assets/670cc2a6-dfb6-45c2-8a3f-8417744039be" />
+
+Search through a list of functional forms:
+
+```wl
+In[]:= FindClosedForm[5.550045, {Sinh, Cosh, Sech, Csch}]
+```
+<img width="71" height="30" alt="1t2ni8mfhm3zb" src="https://github.com/user-attachments/assets/89ac6607-8e8b-4943-97d0-c9e0b1815f8a" />
+
+```wl
+In[]:= FindClosedForm[-1.479735, {EllipticK[#] &, EllipticE[#] &, EllipticPi[#1, #2] &}]
+```
+<img width="168" height="30" alt="1jmd6cieyll20" src="https://github.com/user-attachments/assets/df9e1eec-d8d7-4c19-b6ae-9e1e81b2b0ff" />
+
 ### Full documentation
 
 See many other examples and the rest of the documentation at [this page](https://resources.wolframcloud.com/FunctionRepository/resources/FindClosedForm/) on the Wolfram Function Repository.
