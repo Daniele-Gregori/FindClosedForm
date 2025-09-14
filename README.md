@@ -174,7 +174,7 @@ N[%]
 Differing results of `FindClosedForm` can turn out to be strictly equivalent:
 
 ```wl
-In[]:= FindClosedForm[0.69314718, 4]
+FindClosedForm[0.69314718, 4]
 ```
 
 <img width="366" height="30" alt="1ukuomhn8sm2t" src="https://github.com/user-attachments/assets/74839196-ea26-4566-9ba7-e499e487e23f" />
