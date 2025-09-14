@@ -241,7 +241,7 @@ FindClosedForm[7.443967, Log[1 + Exp[#]] &]
 ```
 
 
-10 Log[1 + E^(1/10)]
+10 Log[1 + Exp[1/10]]
 
 
 ```wl
